@@ -43,9 +43,18 @@ LoginUsuario = async(req, res = response ) => {
  
   const query = "SELECT Id,Nombre,Password, Dni,usuario,primeravez_app FROM Empleados WHERE usuario ='" + dni + "'";
 
-  console.log(dni);
-  console.log(pass);
+ 
   const data = await executeQuery(query);  
+
+  // const filteredData = data.map(item => ({
+  //   id: item.Id,
+  //   Nombre: item.Nombre,
+  //   Password: item.Password,
+  //   Dni: item.Dni
+  // }));
+
+
+ 
   res.json(data);
 }
 
