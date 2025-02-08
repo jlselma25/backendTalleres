@@ -17,6 +17,22 @@ const config=  {
 
 
 
+// const config=  {
+//     user: 'sa',
+//     password: 'Adm1357',
+//     //server: 'SERVIDORNEW', 
+//     server:'devexp.ddns.net',
+//     database: 'Catering',
+//     port: 1444,
+//     options: {
+//         encrypt: false, // Usa `true` si tu servidor requiere encriptación
+//         trustServerCertificate: false // Usa `true` si confías en el certificado del servidor
+//     }
+// };
+
+
+
+
 
 /*const config=  {
     user: 'sa',
